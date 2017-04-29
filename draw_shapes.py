@@ -21,7 +21,7 @@ def handleDrawShape() :
     objWindow.exitonclick()
 # end of handleDrawShape
 
-# handleDrawShape()
+handleDrawShape()
 
 
 def handleDrawInitials() :
@@ -51,7 +51,7 @@ def handleDrawInitials() :
     objWindow.exitonclick()
 # end of handleDrawInitials
 
-# handleDrawInitials()
+handleDrawInitials()
 
 
 def handleDrawFlower() :
@@ -78,7 +78,7 @@ def handleDrawFlower() :
     objWindow.exitonclick()
 # end of handleDrawShape
 
-# handleDrawFlower()
+handleDrawFlower()
 
 
 def handleDrawFlower1() :
@@ -102,7 +102,7 @@ def handleDrawFlower1() :
     objWindow.exitonclick()
 # end of handleDrawShape
 
-# handleDrawFlower1()
+handleDrawFlower1()
 
 def handleDrawSmallTriangles(objTurtle):
     
