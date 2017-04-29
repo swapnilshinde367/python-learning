@@ -1,7 +1,7 @@
 # pylint: skip-file
 # Open a folder and rename the files.
-# For loop for a simple array
-# Rename a file in the folder
+# For loop for a simple array.
+# Rename a file in the folder.
 
 import os
 def handleRenameFiles():
