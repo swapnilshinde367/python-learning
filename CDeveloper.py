@@ -1,6 +1,6 @@
 # pylint: skip-file
 # Import parent class
-# Create sub class, inherit parent class' variables, inherit parent class' methods.
+# Create sub class, inherit parent class' variables, inherit parent's instance methods.
 
 from CEmployee import CEmployee
 
