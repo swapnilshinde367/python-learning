@@ -21,7 +21,7 @@ def handleDrawShape() :
     objWindow.exitonclick()
 # end of handleDrawShape
 
-handleDrawShape()
+# handleDrawShape()
 
 
 def handleDrawInitials() :
@@ -45,13 +45,13 @@ def handleDrawInitials() :
     # objTurtle.forward(100)
     # objTurtle.right(90)
     objTurtle.forward(100)
-    
-       
+
+
 
     objWindow.exitonclick()
 # end of handleDrawInitials
 
-handleDrawInitials()
+# handleDrawInitials()
 
 
 def handleDrawFlower() :
@@ -71,14 +71,14 @@ def handleDrawFlower() :
             objTurtle.forward(100)
             objTurtle.right(140)
         objTurtle.right(5)
-    
+
     objTurtle.right(90)
     objTurtle.forward(250)
 
     objWindow.exitonclick()
 # end of handleDrawShape
 
-handleDrawFlower()
+# handleDrawFlower()
 
 
 def handleDrawFlower1() :
@@ -98,18 +98,18 @@ def handleDrawFlower1() :
             objTurtle.forward(50)
             objTurtle.right(10)
         objTurtle.right(90)
-    
+
     objWindow.exitonclick()
 # end of handleDrawShape
 
-handleDrawFlower1()
+# handleDrawFlower1()
 
 def handleDrawSmallTriangles(objTurtle):
-    
+
     for intCount in range(0,2):
         objTurtle.left(120)
         objTurtle.forward(25)
-    
+
     for intCount in range(0,2):
         objTurtle.right(120)
         objTurtle.forward(25)
@@ -139,7 +139,7 @@ def handleDrawTriangles() :
     handleDrawSmallTriangles(objTurtle)
     objTurtle.left(120)
     objTurtle.forward(50)
-    
+
     for intCount in range(0,2):
         objTurtle.right(120)
         objTurtle.forward(50)
