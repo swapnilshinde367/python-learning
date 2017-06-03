@@ -1,7 +1,7 @@
 # pylint: skip-file
 
 # line continuation using "\"
-# quotes to creates strings
+# quotes to create strings
 
 test_var = 'abc' + \
 			'-def-' + \
