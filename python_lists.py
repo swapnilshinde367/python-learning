@@ -3,7 +3,7 @@
 # lists, their operations, concat, repeat, string selctive elements
 
 list = [ 'abcd', 345 , 2.23, 'randy', 70.2 ]
-tinylist = [ 123, 'orton' ]
+tinylist = [ 123, 'orton']
 
 # Print whole list
 print list
