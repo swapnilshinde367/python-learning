@@ -1,7 +1,7 @@
 # pylint: skip-file
 
-# Membership operators - if, if not.
-# Identity operators compare the memory locations of two objects.
+# Membership operators - in, not in.
+# Membership operators which checks or tests if the a value is present in given list, string or tuple.
 
 intA = 10
 intB = 20
