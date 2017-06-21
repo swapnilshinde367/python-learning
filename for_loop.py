@@ -1,6 +1,6 @@
 # pylint: skip-file
 
-# for loop
+# for loop, use of else in for loop
 
 arrstrName = 'Swapnil'
 for strLetter in arrstrName :
