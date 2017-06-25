@@ -12,3 +12,10 @@ printModule.handlePrintName( 'Swapnil' )
 from printModule import *
 
 handlePrintName( 'Swapnil' )
+
+
+# Or import package
+import PhoneFunctions
+
+PhoneFunctions.Imei()
+PhoneFunctions.PhoneNumber()
