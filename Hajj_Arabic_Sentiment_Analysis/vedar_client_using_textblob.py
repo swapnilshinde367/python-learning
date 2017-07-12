@@ -26,6 +26,5 @@ for strTweet in arrExcelData['text'] :
 		strTweet = objTextBlob.translate( to = 'en' )
 		strTweet = str( strTweet )
 	objVaderAnalysis = objAnalyzer.polarity_scores(strTweet)
-	# print 'Analysis of ' + strTweet + ' is \n'
 	print strTweet
 	print str( objVaderAnalysis )
