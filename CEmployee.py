@@ -20,7 +20,7 @@ class CEmployee:
 		return '{} - {}'.format( self.strFirstName, self.strLastName)
 
 	def __str__( self ):
-		return '{} - {}'.format( self.strFirstName, self.strLastName)		
+		return '{} - {}'.format( self.strFirstName, self.strLastName)
 
 objEmployee1 = CEmployee()
 objEmployee1.strFirstName	= 'John'
@@ -32,9 +32,9 @@ objEmployee2.strFirstName	= 'Randy'
 objEmployee2.strLastName	= 'Orton'
 objEmployee2.intSalary		= 2000
 
-objEmployee1.handleCreateEmailAddress()
+# objEmployee1.handleCreateEmailAddress()
 
-objEmployee2.handleCreateEmailAddress()
+# objEmployee2.handleCreateEmailAddress()
 
 # print( objEmployee1.strEmailAddress )
 
