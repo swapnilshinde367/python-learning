@@ -1,6 +1,6 @@
 # pylint: skip-file
 # Create class.
-# Create class variables, instance methods.
+# Create class variables,instance methods.
 # Magic methods for class.
 
 class CEmployee:

@@ -1,6 +1,6 @@
 # pylint: skip-file
-# Create class.
-# Create class variables, instance methods.
+# Create parent class
+# Create class variables, instance methods
 
 class Employee :
 	'Common class for employee'

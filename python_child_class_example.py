@@ -1,5 +1,5 @@
 # pylint: skip-file
-# Create child class.
+# Create child class
 
 from python_parent_class_example import Employee
 

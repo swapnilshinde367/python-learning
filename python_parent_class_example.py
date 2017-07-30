@@ -1,5 +1,5 @@
 # pylint: skip-file
-# Create parent class.
+# Create parent class
 
 class Employee :
 	'Common class for employee'
