@@ -1,6 +1,6 @@
 # pylint: skip-file
 
-# strings, their operations, concat, repeat, string selctive characters
+# strings, their operations, concat, repeat, string selctive characters, reverse
 
 strName = 'Swapnil Shinde'
 
@@ -21,3 +21,6 @@ print strName + ' Test'
 
 # Repeat string 2 times
 print strName * 2
+
+# Reverse string
+print strName[::-1]
