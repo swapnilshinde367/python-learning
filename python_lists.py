@@ -22,3 +22,17 @@ print list + tinylist
 
 # Print the list 2 times
 print tinylist * 2
+
+# Use negative index
+
+print list[-3]
+
+# Skip the value using "step"
+# This prints as it is by default
+print list[0:4:1]
+
+# Skip every second value
+print list[0:4:2]
+
+# Use negative step
+print list[-1:0:-1]

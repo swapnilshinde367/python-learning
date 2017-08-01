@@ -1,4 +1,5 @@
 # pylint: skip-file
+#
 import mysql.connector
 
 objMysqlConnection	= mysql.connector.connect(	host		= 'localhost',
