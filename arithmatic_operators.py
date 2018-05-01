@@ -12,6 +12,8 @@ print 14 / 2
 
 print 19 % 6
 
+print 32 % 3
+
 # Floor Division - The division of operands where the result is the quotient in which the digits after the decimal point are removed.
 # But if one of the operands is negative, the result is floored.
 
