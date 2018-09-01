@@ -19,7 +19,7 @@ import unidecode
 # tab of
 #   https://cloud.google.com/console
 # Please ensure that you have enabled the YouTube Data API for your project.
-DEVELOPER_KEY = "AIzaSyCrOqZQbfpc0moBXM20dm1jUXT3XVE6Y2g"
+DEVELOPER_KEY = "what?"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
@@ -28,16 +28,16 @@ def youtube_search(options):
     # Call the search.list method to retrieve results matching the specified
     # query term.
     search_response = youtube.search().list(q=options.q, part="id,snippet", maxResults=options.max_results).execute()
-    
+
     videos = []
     channels = []
     playlists = []
-    
-    # create a CSV output for video list    
+
+    # create a CSV output for video list
     csvFile = open('video_result.csv','w')
     csvWriter = csv.writer(csvFile)
     csvWriter.writerow(["title","videoId","viewCount","likeCount","dislikeCount","commentCount","favoriteCount"])
-    
+
     # Add each result to the appropriate list, and then display the lists of
     # matching videos, channels, and playlists.
     for search_result in search_response.get("items", []):
@@ -65,11 +65,11 @@ def youtube_search(options):
                     favoriteCount = 0
                 else:
                     favoriteCount = video_result["statistics"]["favoriteCount"]
-                    
+
             csvWriter.writerow([title,videoId,viewCount,likeCount,dislikeCount,commentCount,favoriteCount])
 
     csvFile.close()
-  
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Search on YouTube')
     parser.add_argument("--q", help="Search term", default="Google")
