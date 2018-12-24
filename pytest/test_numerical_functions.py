@@ -20,7 +20,19 @@ def test_dividebytwo() :
 
 @pytest.mark.five
 def test_dividebyfive() :
-	assert 2 == numerical_functions.dividebyfive( 4 )
+	assert 2 == numerical_functions.dividebyfive( 10 )
+
+# sending parameters to function
+@pytest.mark.parametrize( 'test_input, expected_output',
+						[
+							( 5, 25 ),
+							( 10, 100 ),
+							( 9, 81 )
+						]
+					)
+def test_square( test_input, expected_output ) :
+	result = numerical_functions.square( test_input )
+	assert expected_output == result
 
 # to run use following commands
 # python -m pytest

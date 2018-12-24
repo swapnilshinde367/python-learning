@@ -9,3 +9,6 @@ def dividebytwo( intA ) :
 
 def dividebyfive( intA ) :
 	return intA / 5
+
+def square( intA ) :
+	return intA * intA
